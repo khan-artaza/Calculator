@@ -18,7 +18,7 @@ for(let i=0; i< button.length; i++){
                     .replace(/X/g, "*")
                     .replace(/%/g, "/100*")
 
-                    display.value = eval(expression)
+                    display.value = eval(expression).toFixed(4)
             }catch{
                 display.value = "Error!"
             }

@@ -136,9 +136,14 @@ button{
 
 }
 @media (max-width: 455px) {
+    body{
+        align-items: flex-start;
+    }
     .container {
         width: 90%;
         height: 70%;
+       margin-top: 88px;
+
     }
 }
 @media (max-width: 382px) {
